@@ -16,34 +16,6 @@ Este proyecto consiste en una página web que consulta en tiempo real el clima d
 
 Este proyecto está desarrollado utilizando Python, JavaScript, HTML y CSS. Proporciona una implementación de un servicio web utilizando Flask, entre otras herramientas.
 
-
-##  **Prueba de búsqueda por tickets**
-
-En nuestra página puedes consultar climas asociados al origen y al destino de vuelos completamente reales. Para probar este apartado, sugerimos que una vez instalado el proyecto, visites la ruta:
-
-```bash
-<tu_ruta_a_este_proyecto>/weather_app/utils/cache/
-```
-Y consultes el archivo:
-
-```bash
-ejemplo_tickets.txt
-```
-Que tendrá escritos algunos tickets recuperados en tiempo real desde la página oficial del [Aereopuerto Internacional de la Ciudad de México](https://www.aicm.com.mx/pasajeros/vuelos
-). Otra opción para probar este apartado es copiar y pegar algún ticket de vuelo (localizados en la columna vuelos) desde la página antes mencionada, e ingresarlo en nuestro proyecto.
-
-## Antes de Usar
-
-Para funcionar correctamente, este proyecto necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
-Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
-
-Una vez obtenidas e instalado el proyecto, visita la ruta:
-
-```bash
-<tu_ruta_a_este_proyecto>/weather_app/utils/.env
-```
-Y modifica los apartados WEATHER_KEY y FLIGHT_KEY para que coincidan con tus claves de OpenWeatherMap y AviationStack, respectivamente.
-
 ## Instalación
 
 Para configurar el entorno de desarrollo, sigue estos pasos:
@@ -109,3 +81,33 @@ Esto creará un entorno virtual y instalará los siguientes paquetes requeridos:
 * Werkzeug==3.0.4
 
 Después de instalar los paquetes, se ejecutará flask y se creará el link a la página Web.
+
+## Antes de Usar
+
+Para funcionar correctamente, este proyecto necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
+Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
+
+Una vez obtenidas e instalado el proyecto, visita la ruta:
+
+```bash
+<tu_ruta_a_este_proyecto>/weather_app/utils/.env
+```
+Y modifica los apartados WEATHER_KEY y FLIGHT_KEY para que coincidan con tus claves de OpenWeatherMap y AviationStack, respectivamente.
+
+
+##  **Prueba de búsqueda por tickets**
+
+En nuestra página puedes consultar climas asociados al origen y al destino de vuelos completamente reales. Para probar este apartado, sugerimos que una vez instalado el proyecto, visites la ruta:
+
+```bash
+<tu_ruta_a_este_proyecto>/weather_app/utils/cache/
+```
+Y consultes el archivo:
+
+```bash
+ejemplo_tickets.txt
+```
+Que tendrá escritos algunos tickets recuperados en tiempo real desde la página oficial del [Aereopuerto Internacional de la Ciudad de México](https://www.aicm.com.mx/pasajeros/vuelos
+). Otra opción para probar este apartado es copiar y pegar algún ticket de vuelo (localizados en la columna vuelos) desde la página antes mencionada, e ingresarlo en nuestro proyecto.
+
+
