@@ -1,5 +1,8 @@
 # Proyecto 01, Web Service.
-Página Web que consulta en tiempo real el clima de destinos de vuelo, ya sea introduciendo directamente una ciudad o mediante el código de un ticket de vuelo que parte o llega al AICM. 
+
+Repositorio para el Proyecto 01 de Modelado y Programación, con el Prof. José Galaviz Casas.
+
+Este proyecto consiste en una página web que consulta en tiempo real el clima de destinos de vuelo, ya sea introduciendo directamente una ciudad o mediante el código de un ticket de vuelo que parte o llega al AICM. 
 
 ## Integrantes
 
