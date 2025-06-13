@@ -31,7 +31,7 @@ Para instalar el proyecto, sigue estos pasos:
 
 Una vez instalado el proyecto, es necesario hacer algunos ajustes. 
 
-Para funcionar correctamente, nuestra página necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
+Para funcionar correctamente, nuestra página necesita de una key *Hourly Forecast 4 days* de la API de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de la API de [AviationStack](https://aviationstack.com/). 
 Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
 
 Una vez obtenidas, visita la ruta:
