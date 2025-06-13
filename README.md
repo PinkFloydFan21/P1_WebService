@@ -27,7 +27,7 @@ Para configurar el entorno de desarrollo, sigue estos pasos:
    cd Proyecto01_Web_Service/weather_app
    ```
 
-## Antes de Usar
+## Antes de Ejecutar
 
 Para funcionar correctamente, este proyecto necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
 Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
