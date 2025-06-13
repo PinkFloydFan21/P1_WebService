@@ -24,7 +24,7 @@ Para configurar el entorno de desarrollo, sigue estos pasos:
 
    ```Bash
    https://github.com/PinkFloydFan21/P1_WebService.git
-   cd Proyecto01_Web_Service/weather_app
+   cd P1_WebService/weather_app
    ```
 
 ## Antes de Ejecutar
