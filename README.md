@@ -27,7 +27,23 @@ Para configurar el entorno de desarrollo, sigue estos pasos:
    cd Proyecto01_Web_Service/weather_app
    ```
 
-2. **Ejecuta el modulo install.py:**
+## Antes de Usar
+
+Para funcionar correctamente, este proyecto necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
+Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
+
+Una vez obtenidas e instalado el proyecto, visita la ruta:
+
+```bash
+<tu_ruta_a_este_proyecto>/weather_app/utils/.env
+```
+Y modifica los apartados WEATHER_KEY y FLIGHT_KEY para que coincidan con tus claves de OpenWeatherMap y AviationStack, respectivamente.
+
+## Ejectutar el Proyecto
+
+Una vez completados los pasos anteriores:
+
+1. **Ejecuta el modulo install.py:**
 
 En la carpeta weather_app/ del proyecto, encontrarás un módulo de Python llamado install.py. Este módulo crea un entorno virtual de Python e instalara todos los paquetes necesarios para ejecutar el proyecto.
 
@@ -82,22 +98,9 @@ Esto creará un entorno virtual y instalará los siguientes paquetes requeridos:
 
 Después de instalar los paquetes, se ejecutará flask y se creará el link a la página Web.
 
-## Antes de Usar
-
-Para funcionar correctamente, este proyecto necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
-Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
-
-Una vez obtenidas e instalado el proyecto, visita la ruta:
-
-```bash
-<tu_ruta_a_este_proyecto>/weather_app/utils/.env
-```
-Y modifica los apartados WEATHER_KEY y FLIGHT_KEY para que coincidan con tus claves de OpenWeatherMap y AviationStack, respectivamente.
-
-
 ##  **Prueba de búsqueda por tickets**
 
-En nuestra página puedes consultar climas asociados al origen y al destino de vuelos completamente reales. Para probar este apartado, sugerimos que una vez instalado el proyecto, visites la ruta:
+Por último, en nuestra página puedes consultar climas asociados al origen y al destino de vuelos completamente reales. Para probar este apartado, sugerimos que una vez ejecutado el proyecto, visites la ruta:
 
 ```bash
 <tu_ruta_a_este_proyecto>/weather_app/utils/cache/
