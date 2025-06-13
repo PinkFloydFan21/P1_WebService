@@ -29,7 +29,7 @@ Para configurar el entorno de desarrollo, sigue estos pasos:
 
 ## Antes de Ejecutar
 
-Una vez instado el proyecto, es necesario hacer algunos ajustes. 
+Una vez instalado el proyecto, es necesario hacer algunos ajustes. 
 
 Para funcionar correctamente, nuestra página necesita de una key *Hourly Forecast 4 days* de [OpenWeatherMap](https://openweathermap.org/api) y una key personal de [AviationStack](https://aviationstack.com/). 
 Ambas pueden obtenerse gratuitamente haciendo un registro corto. En el caso de OpenWeatherMap, también es necesesario presentar una credencial de estudiante. 
