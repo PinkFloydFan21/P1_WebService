@@ -18,7 +18,7 @@ Este proyecto está desarrollado utilizando Python, JavaScript, HTML y CSS. Prop
 
 ## Instalación
 
-Para configurar el entorno de desarrollo, sigue estos pasos:
+Para instalar el proyecto, sigue estos pasos:
 
 1. **Clona el repositorio:**
 
