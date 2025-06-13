@@ -23,7 +23,7 @@ Para configurar el entorno de desarrollo, sigue estos pasos:
 1. **Clona el repositorio:**
 
    ```Bash
-   https://github.com/PinkFloydFan21/P1_WebService.git
+   git clone https://github.com/PinkFloydFan21/P1_WebService.git
    cd P1_WebService/weather_app
    ```
 
